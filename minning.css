@@ -44,10 +44,8 @@ nav span{
     height: 4.5vh;
     width: 6.5vw;
     border-radius: 10px;
-    /* box-shadow: -2px 2px 0px white; */
     background-color:transparent;
     display: flex;
-    /* font-family: 'Courier New', Courier, monospace; */
     align-items: center;
     justify-content: center;
     font-weight: 700;
@@ -89,7 +87,6 @@ nav span{
     outline: none;
     border: 3px solid black;
     font-size: 3vh;
-    /* text-shadow: 3px 0px black; */
     font-weight: 800;
     font-family:initial;
     box-shadow: 2px 2px 4px rgba(233, 227, 56, 0.894);
@@ -99,17 +96,14 @@ nav span{
     height: 60%;
     width: 30%;
     display: grid;
-    /* background-color: blue; */
-    grid-template-columns: 21% 21% 21% 21% 21% ;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
     grid-template-rows: 11vh 11vh 11vh 11vh 11vh;
-    /* border: 2px solid black; */
     column-gap: 0.25;
     gap: 0.25;
 }
 #main div{
     height: 10vh;
     width: 10vh;
-    /* border: 2px solid goldenrod; */
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -141,7 +135,6 @@ footer a{
     background-color: #f2e277;
     backdrop-filter: blur(5px);
     border-radius: 30px;
-    /* color: rgb(11, 2, 2); */
     display: flex;
     font-family:monospace;
     font-size: 2rem;
@@ -190,4 +183,5 @@ footer a{
         width: 55vw;
     }
 }
+
 
